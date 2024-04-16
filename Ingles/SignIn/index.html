@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en,es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+
+    <link rel="stylesheet" href="/Ingles/SignIn/style/sign_in_style.css" />
+    <link
+      rel="shortcut icon"
+      href="/Ingles/SignIn/img/Logo cabezote.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="signIn">
+      <div class="signIn__Left">
+        <img
+          class="signIn__image"
+          src="/Ingles/SignIn/img/Pieda del peñol.jpg"
+          alt="image_sign_in "
+        />
+      </div>
+
+      <div class="signIn__Right">
+        <div class="container">
+          <div class="container__Logo">
+            <img
+              class="container__Logo--Img"
+              src="/Ingles/SignIn/img/Logo calidad.svg"
+              alt="logo_Vamos_pues"
+            />
+          </div>
+
+          <div class="signIn__Title">
+            <h1>SIGN IN</h1>
+          </div>
+
+          <div class="signIn__Subtitle">
+            <p>Enter your email and password</p>
+          </div>
+
+          <section class="signInForm">
+            <form class="form" action=" ">
+              <div class="signInForm__Option">
+                <label for="Email"></label>
+                <input
+                  class="signInForm__label--email"
+                  type="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+
+              <div class="signInForm__Option">
+                <label for="pasword"></label>
+                <input
+                  class="signInForm__label--pasword"
+                  type="password"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+
+              <div class="signIn__Checkbox">
+                <input
+                  class="signIn__Checkbox--for"
+                  type="checkbox"
+                  id="remember"
+                />
+                <label for="remember">Remember me</label>
+                <a href="#">Forgot password?</a>
+              </div>
+
+              <button class="signIn__Button" type="LOGING">LOGIN</button>
+            </form>
+
+            <div class="signIn__CreateAccount">
+              <label for="don't have">Don't have an account?</label>
+              <a href="/Ingles/SignUp/index.html">Sign up</a>
+            </div>
+
+            <div class="SignIn__With">
+              <div class="SignIn__With--Left"></div>
+              <p>Sign in with</p>
+              <div class="SignIn__With--Right"></div>
+            </div>
+
+            <div class="SignIn__SocialMedia">
+              <a href="#">
+                <img
+                  class="signIn__SocialMedia--Google"
+                  src="/Ingles/SignIn/img/google.png"
+                  alt="Aconunt Google"
+                />
+              </a>
+              <a href="#">
+                <img
+                  class="signIn__SocialMedia--Phone"
+                  src="/Ingles/SignIn/img/cel.png"
+                  alt="number"
+                />
+              </a>
+              <a href="#">
+                <img
+                  class="signIn__SocialMedia--facebook"
+                  src="/Ingles/SignIn/img/facebook.png"
+                  alt="Aconunt facebook"
+                />
+              </a>
+            </div>
+          </section>
+          <button class="signIn__Back" type="text"><a href="../../index.html">HOME</a></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
