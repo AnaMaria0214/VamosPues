@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --primary: #201f1b;
+  --secondary: #71736c;
+  --terciary: #9a9d95;
+  --quartiary: #dee1de;
+  --quintiary: #fafaff;
+
+  --brackground1: #f0f0f0;
+  --brackground2: #e2e8e4;
+  --brackground3: #c5ddbe;
+}
+* {
+  font-family: "Dosis", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--brackground2);
+}
+
+.signIn {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.signIn__Left {
+  width: 50%;
+  height: 100%;
+}
+
+.signIn__image {
+  width: 100%;
+  height: 100vh;
+}
+.signIn__Right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 70%;
+  height: 80%;
+}
+
+.container__Logo {
+  width: 80%;
+  margin: 60PX auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.signIn__Title {
+  width: 300px;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--primary);
+  text-align: center;
+  margin: 5PX auto;
+  margin-bottom: 10px;
+}
+
+.signIn__Subtitle {
+  font-size: 16px;
+  color: var(--secondary);
+  width: 200px;
+  height: 25px;
+  margin: 10PX auto;
+  margin-bottom: 20px;
+}
+
+.signInForm {
+  font-size: 16px;
+  color: var(--secondary);
+  width: 250px;
+  height: 150px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.signInForm__Option input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--brackground2);
+  width: 250px;
+  height: 15px;
+  padding: 20px;
+  border: none;
+  border-bottom: 1px solid #A8A6A7;
+  outline: none;
+}
+
+.signInForm__Option label {
+  pointer-events: none;
+}
+
+.signIn__Checkbox {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+
+.signIn__Checkbox label {
+  font-size: 15px;
+  margin-right: 30px;
+  margin-left: 5px;
+}
+.signIn__Checkbox input  {
+  width: 15px;
+  height: 15px;
+  left: 0;
+}
+
+.signIn__Checkbox a {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.signIn__Button{
+  background: var(--primary);
+  color: var(--quintiary);
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 auto;
+  width: 240px;
+  height: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.signIn__Button:hover{
+  background: var(--brackground3);
+  border-color: var(--brackground3);
+  color: var(--primary);
+}
+
+.signIn__CreateAccount {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.signIn__CreateAccount label{
+  margin-right: 10px;
+}
+
+.signIn__CreateAccount a {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.SignIn__With{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.SignIn__With--Right, .SignIn__With--Left {
+  width: 25%;
+  border-bottom: 2px solid #A8A6A7;
+}
+
+.SignIn__SocialMedia{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  
+}
+
+.signIn__SocialMedia--Google { 
+  width: 40px;
+  height: 40px;
+  
+}
+.signIn__SocialMedia--Phone{
+  width: 50px;
+  height: 50px;
+  
+}
+.signIn__SocialMedia--facebook{
+  width: 40px;
+  height: 40px;
+}
+
+.signIn__Back{
+  background: var(--primary);
+  color: var(--quintiary);
+  font-size: 15px;
+  font-weight: bold;
+  width: 150px;
+  height: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  
+}
+
+
+.signIn__Back a {
+  text-decoration: none;
+  color: var(--quintiary);
+
+}
+
+.signIn__Back a:hover, .signIn__Back:hover{ 
+  background: var(--brackground3);
+  border-color: var(--brackground3);
+  color: var(--primary);
+}
+
+
+@media (max-width: 768px){
+
+  .signIn__Left{
+    display: none;
+  }
+
+  .signIn__Right{
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .signIn__Back {
+    width: 70px;
+    height: 25px;
+}
+}

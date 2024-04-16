@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contacto </title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="/Español/Contacto/img/logo_pestana.svg" type="image/png">
+
+</head>
+
+<body>
+    <!-- BARRA DE NAVEGACIÓN  COMPUTADOR -->
+    <nav class="nav">
+        <a href="#" class="nav__logo">
+            <img src="/Español/Contacto/img/logo_footer.svg" alt="logo" class="nav__logo--image" />
+        </a>
+
+        <ul class="nav__menu">
+            <li class="nav_section"><a href="/Español/index.html">Inicio</a></li>
+            <li class="nav_section"><a href="/Español/Favoritos/index.html">Favoritos</a></li>
+            <li class="nav_section"><a href="/Español/Nosotros/index.html">Nosotros</a></li>
+            <li class="nav_section"><a href="/Español/Contacto/index.html">Contacto</a></li>
+        </ul>
+
+        <div class="lastMenu">
+            <!-- USUARIO -->
+            <div class="user">
+                <div class="user__avatar">
+                    <button class="user__avatarButton"></button>
+                </div>
+
+                <div class="user__menu">
+                    <a href="/Español/IniciarSesion/index.html" class="user__menuOption">Iniciar Sesión</a>
+                    <a href="/Español/Registrarse/index.html" class="user__menuOption">Registrarse</a>
+                </div>
+            </div>
+
+            <!-- IDIOMAS -->
+            <div class="language">
+                <div class="language__option">
+                    <button class="language__optionButton"></button>
+                </div>
+
+                <div class="language__menu">
+                    <a href="/Español/index.html" class="language__menuOption">
+                        <img src="/Español/Contacto/img/espana.png" alt="Español">
+                    </a>
+                    <a href="/index.html" class="language__menuOption">
+                        <img src="/Español/Contacto/img/estados-unidos.png" alt="Inglés">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BARRA DE NAVEGACIÓN MOVIL -->
+    <div class="movil">
+        <nav role="navigation">
+            <a href="#" class="nav__logo">
+                <img src="/Español/Contacto/img/logo_footer.svg" alt="logo" class="nav__logo--image" />
+            </a>
+            <!-- MENÚ DE HAMBURGUESA -->
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <!-- Aquí crea la forma del menú de hamburguesa -->
+                <span></span>
+                <span></span>
+                <span></span>
+                
+                <ul id="menu">
+                <a href="/Español/index.html"><li>Inicio</li></a>
+                <a href="/Español/Favoritos/index.html"><li>Favoritos</li></a>
+                <a href="/Español/Contacto/index.html"><li>Contacto</li></a>
+                <a href="/Español/Nosotros/index.html"><li>Nosotros</li></a>
+                </ul>
+            </div>
+            </nav>
+        </div>
+
+    <!-- IMAGEN TITULO -->
+    <div class="header">
+        <img src="/Español/Contacto/img/jerico2.avif" alt="Imagen título">
+        <h1> CONTACTO </h1>
+    </div>
+
+
+    <!-- CONTENEDOR PUBLICIDAD Y FORMULARIO -->
+    <div class="container">
+        <!-- PUBLICIDAD -->
+        <div class="container__publicity" id="video1">
+            <video src="/Español/Contacto/img/avianca.MP4" autoplay muted loop></video>
+        </div>
+        <!-- CONTENEDOR FORMULARIO -->
+        <div class="container__form" id="form">
+            <h2>Contactános</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo: </label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="mensaje">Mensage: </label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <!-- PUBLICIDAD -->
+        <div class="container__publicity">
+            <video src="/Español/Contacto/img/airbnb.mp4" autoplay muted loop></video>
+        </div>
+    </div>
+
+    <hr class="separator">
+
+    <div class="otherContact" id="others">
+        <h3> Otras formas de contactarse con nosotros: </h3>
+        <a href="mailto:info@vamospues.com"><b>Correo: </b> info@vamospues.com</a>
+        <a href="tel:+573154408678" class="network__icon">
+            <b>Teléfono: </b> +573 150 000
+        </a>
+    </div>
+
+    <!-- BARRA LATERAL DERECHO RESPONSIVE IDIOMA Y USUARIO -->
+    <div class="network">
+        <!-- USUARIO -->
+       <div class="user2">
+           <div class="user2__avatar">
+               <button  class="user2__avatarButton">
+                   <img src="/Español/Contacto/img/usuario.png" height="30px" width="30px" alt="usuario">
+               </button>
+           </div>
+
+           <div class="user2__menu">
+               <a href="/Español/IniciarSesion/index.html" class="user2__menuOption">Iniciar Sesión</a>
+               <a href="/Español/Registrarse/index.html" class="user2__menuOption">Registrarse</a>
+           </div>
+       </div>
+
+       <!-- IDIOMAS -->
+       <div class="language2">
+           <div class="language2__option">
+               <button class="language2__optionButton">
+                   <img src="/Español/Contacto/img/mundo.png" height="30px" width="50px" alt="mundo">
+               </button>
+           </div>
+
+           <div class="language2__menu">
+               <a href="/Español/index.html" class="language2__menuOption">
+                   <img src="/Español/Contacto/img/espana.png" alt="Spanish">
+               </a>
+               <a href="/index.html" class="language2__menuOption">
+                   <img src="/Español/Contacto/img/estados-unidos.png" alt="English">
+               </a>
+           </div>
+       </div>
+   </div>  
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__contentSocial">
+                <h3>Redes Sociales</h3>
+                <a href="https://www.facebook.com/login" target="_blank" class="social-icon">Facebook</a>
+                <a href="https://twitter.com/i/flow/login" target="_blank" class="social-icon">Twitter</a>
+                <a href="https:/instagram.com/accounts/login" target="_blank" class="social-icon">Instagram</a>
+            </div>
+
+
+            <div class="footer__contentAboutUs">
+                <h3>Nosotros</h3>
+                <a href="/Español/Nosotros/index.html#team" class="about-us-link">Equipo</a>
+                <a href="/Español/Nosotros/index.html#reason" class="a-contact">Razón</a>
+                <a href="/Español/Nosotros/index.html#intention" class="a-contact">Intención</a>
+                <a href="/Español/Nosotros/index.html#focus" class="a-contact">Enfoque</a>
+            </div>
+            <div class="footer__contentInfo">
+                <h3>Contacto</h3>
+                <a href="/Español/Contacto/index.html#form" class="a-contact">Contactános</a>
+                <a href="/Español/Contacto/index.html#others" class="a-contact">Otros medios de contacto</a>
+            </div>
+        </div>
+
+        <img src="/Español/Contacto/img/logo_footer.svg" alt="Vamos Pues" class="footer__logo">
+        <p class="footer__copyright">© 2023 Vamos Pues. Todos los derechos reservados.</p>
+    </footer>
+
+
+</body>
+
+</html>
+
+</body>
+
+</html>

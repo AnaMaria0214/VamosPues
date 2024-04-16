@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en,es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar sesion</title>
+
+    <link rel="stylesheet" href="/Español/IniciarSesion/style/Inciar sesion style.css" />
+    <link
+      rel="shortcut icon"
+      href="/Español/IniciarSesion/img/Logo cabezote.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="signIn">
+      <div class="signIn__Left">
+        <img
+          class="signIn__image"
+          src="/Español/IniciarSesion/img/Pieda del peñol.jpg"
+          alt="image_sign_in "
+        />
+      </div>
+
+      <div class="signIn__Right">
+        <div class="container">
+          <div class="container__Logo">
+            <img
+              class="container__Logo--Img"
+              src="/Español/IniciarSesion/img/Logo calidad.svg"
+              alt="logo_Vamos_pues"
+            />
+          </div>
+
+          <div class="signIn__Title">
+            <h1>INICIAR SESIÓN</h1>
+          </div>
+
+          <div class="signIn__Subtitle">
+            <p>Ingresa el usuario y contraseña</p>
+          </div>
+
+          <section class="signInForm">
+            <form class="form" action=" ">
+              <div class="signInForm__Option">
+                <label for="Email"></label>
+                <input
+                  class="signInForm__label--email"
+                  type="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+
+              <div class="signInForm__Option">
+                <label for="pasword"></label>
+                <input
+                  class="signInForm__label--pasword"
+                  type="password"
+                  placeholder="Contraseña"
+                  required
+                />
+              </div>
+
+              <div class="signIn__Checkbox">
+                <input
+                  class="signIn__Checkbox--for"
+                  type="checkbox"
+                  id="remember"
+                />
+                <label for="remember">Recordarme</label>
+                <a href="#">Olvidaste tu contraseña?</a>
+              </div>
+
+              <button class="signIn__Button" type="LOGING">Inicio de sesión</button>
+            </form>
+
+            <div class="signIn__CreateAccount">
+              <label for="don't have">No tienes una cuenta?</label>
+              <a href="/Español/Registrarse/index.html">Registrate</a>
+            </div>
+
+            <div class="SignIn__With">
+              <div class="SignIn__With--Left"></div>
+              <p>Inicia sesión con</p>
+              <div class="SignIn__With--Right"></div>
+            </div>
+
+            <div class="SignIn__SocialMedia">
+              <a href="#">
+                <img
+                  class="signIn__SocialMedia--Google"
+                  src="/Español/IniciarSesion/img/google.png"
+                  alt="Aconunt Google"
+                />
+              </a>
+              <a href="#">
+                <img
+                  class="signIn__SocialMedia--Phone"
+                  src="/Español/IniciarSesion/img/cel.png"
+                  alt="number"
+                />
+              </a>
+              <a href="#">
+                <img
+                  class="signIn__SocialMedia--facebook"
+                  src="/Español/IniciarSesion/img/facebook.png"
+                  alt="Aconunt facebook"
+                />
+              </a>
+            </div>
+          </section>
+          <button class="signIn__Back" type="text"><a href="/Español/index.html">INICIO</a></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
